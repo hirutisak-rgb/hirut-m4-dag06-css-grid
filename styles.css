@@ -230,3 +230,23 @@ article {
 article .pris {
   margin-top: auto;
 }
+
+/*===== Dag 6: Grid =====*/
+.meny-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+.meny-lista article {
+  margin: 0;
+}
+
+#om-oss {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#om-oss h2 {
+  grid-column: 1 / -1;
+}
